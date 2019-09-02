@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Class_Example_VS
+namespace FiveCardDraw
 {
 	class DeckOfCards
 	{
@@ -47,6 +47,7 @@ namespace Class_Example_VS
 		/// <summary>
 		/// Returns top card in Deck and removes that card from Deck
 		/// </summary>
+		/// <returns>/<returns></returns>
 
 		public Card Deal()
 		{

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Class_Example_VS
+namespace FiveCardDraw
 {
 	class Program
 	{
@@ -20,13 +20,11 @@ namespace Class_Example_VS
 			*/
 
 			Console.OutputEncoding = System.Text.Encoding.Unicode;
-			DeckOfCards myDeck = new DeckOfCards();
+			FiveCardDraw fiveCardDraw = new FiveCardDraw();
+			fiveCardDraw.PlayRound();
 
-			//cycle thru deck
-			foreach (Card card in myDeck.Deck)
-			{
-				Console.WriteLine(card.Value + card.Suit);
-			}
+
+
 			Console.ReadLine();
 		}
 
