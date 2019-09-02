@@ -51,7 +51,7 @@ namespace FiveCardDraw
 
 		public override string ToString()
 		{
-			return rank + " " + suit;
+			return string.Format("{0,2} {1}",rank,suit);
 		}
 
 
